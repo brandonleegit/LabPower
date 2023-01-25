@@ -12,3 +12,17 @@ Clone the repo down and edit the passwords in the PS1 files to connect to your v
 ## Video explanation
 
 https://youtu.be/q69VZkdJiCk
+
+## VMware vSphere
+
+If you are working with a VMware vSphere environment, you will need to install VMware PowerCLI. To install VMware PowerCLI, you can issue the command:
+
+Install-module VMware.PowerCLI
+
+## Proxmox PowerShell
+
+If you would like to use the script with Proxmox, you will need to install the Proxmox Corsinvest.ProxmoxVE.Api PowerShell module here:
+
+https://www.powershellgallery.com/packages/Corsinvest.ProxmoxVE.Api
+
+
